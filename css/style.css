@@ -933,18 +933,18 @@ body._lock, body.menu-open {
     margin-bottom: 1.5625rem;
   }
 }
-@media (max-width: 61.99875em) {
-  .portfolio__body {
-    grid-template-columns: repeat(auto-fill, minmax(19.0625rem, 1fr));
-    gap: 1.25rem;
-  }
-}
 @media (min-width: 47.99875em) {
   .portfolio__body {
     display: -ms-grid;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
     gap: 2.5rem;
+  }
+}
+@media (max-width: 61.99875em) {
+  .portfolio__body {
+    grid-template-columns: repeat(auto-fill, minmax(19.0625rem, 1fr));
+    gap: 2.5rem 1.25rem;
   }
 }
 @media (max-width: 47.99875em) {
