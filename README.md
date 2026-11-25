@@ -1,1 +1,1 @@
-<h1><a href="https://yaroftd.github.io/Portofolio" target="_blank">Портфолио</a></h1>
+<h1><a href="https://yaroftd.github.io/Portofolio">Портфолио</a></h1>
